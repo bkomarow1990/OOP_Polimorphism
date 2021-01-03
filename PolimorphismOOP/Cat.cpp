@@ -23,8 +23,11 @@ void Cat::type() const
 
 void Cat::print() const
 {
+	cout << "Cat: " << endl;
 	DomesticAnimal::print();
 	cout << "Wool lenght: " << wool_lenght << endl;
+	sound();
+	eat();
 }
 
 void Cat::setWoolLenght(const size_t& length)

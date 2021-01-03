@@ -25,6 +25,9 @@ void Dog::print() const
 {
 	DomesticAnimal::print();
 	cout << "Breed of dog: " << breed << endl;
+	sound();
+	eat();
+	type();
 }
 
 void Dog::setBreed(const string& breed) 

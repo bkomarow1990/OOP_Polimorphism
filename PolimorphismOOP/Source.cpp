@@ -16,6 +16,12 @@ int main() {
 	Animal* b = new Cat(3, 8, "Vadim Beliy", 10);
 	b->print();
 	cout << "CW" << endl;
+	cout << "-----Zoo-----" << endl;
+	Zoo zoo;
 
+	zoo.add();
+	zoo.print();
+	zoo.add();
+	zoo.print();
 	return 0;
 }

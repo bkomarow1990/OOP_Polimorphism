@@ -143,6 +143,7 @@
     <ClCompile Include="Cat.cpp" />
     <ClCompile Include="Dog.cpp" />
     <ClCompile Include="DomesticAnimal.cpp" />
+    <ClCompile Include="Parrot.cpp" />
     <ClCompile Include="Source.cpp" />
     <ClCompile Include="WildAnimal.cpp" />
     <ClCompile Include="Zoo.cpp" />
@@ -152,6 +153,8 @@
     <ClInclude Include="Cat.h" />
     <ClInclude Include="Dog.h" />
     <ClInclude Include="DomesticAnimal.h" />
+    <ClInclude Include="Hamster.h" />
+    <ClInclude Include="Parrot.h" />
     <ClInclude Include="WildAnimal.h" />
     <ClInclude Include="Zoo.h" />
   </ItemGroup>

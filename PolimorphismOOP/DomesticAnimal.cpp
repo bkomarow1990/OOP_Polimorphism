@@ -12,6 +12,14 @@ void DomesticAnimal::type() const
 
 void DomesticAnimal::print() const
 {
-	cout << "Owner : " << owner << endl;
-	Animal::print();
+	type();
+	cout << "Age: " << age << " Weight: " << weight << " Owner: " << owner << endl;
+}
+
+void DomesticAnimal::setOwner(const string& owner)
+{
+	if (!owner.empty())
+	{
+		this->owner = owner;
+	}
 }
